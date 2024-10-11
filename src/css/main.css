@@ -1,0 +1,88 @@
+:root {
+    --cor1: #10401e;
+    --cor2: #5c4b37;
+    --cor3: #dddd92;
+    --cor4: #57c5c7;
+    --cor5: #dad9ce;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: var(--cor1);
+    color: var(--cor5);
+}
+
+a {
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin: 1.125rem;
+    padding: 1.125rem;
+    border: 1px solid var(--cor5);
+    border-radius: 1rem;
+}
+/* testar depois */
+/*@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}*/
+
+/* Mobile */
+@media (max-width: 380px) {
+    .main {
+        max-width: 375px;
+        margin: 1rem 1rem;
+    }
+}
+
+/* Extra small divices */
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {
+        max-width: 400px;
+        margin: 1rem auto;
+    }
+}
+
+/* Samall tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main {
+        max-width: 700px;
+        margin: 1rem auto;
+    }
+}
+
+/* Large tablets laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main {
+        max-width: 850px;
+        margin: 1rem auto;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .main {
+        max-width: 850px;
+        margin: 1rem auto;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+    .main {
+        max-width: 850px;
+        margin: 1rem auto;
+    }
+}
