@@ -1,9 +1,9 @@
 :root {
-    --cor1: #009712;/*fundo*/
-    --cor2: #ffffff;/*hover*/
-    --cor3: #4766ce;
-    --cor4: #57c5c7;
-    --cor5: #000000;/*letra*/
+    --cor1: #2113ba;/*fundo*/
+    --cor2: #000000;/*hover*/
+    --cor3: #009c15;
+    --cor4: #35ac78;
+    --cor5: #ffffff;/*letra*/
 }
 
 .acordeon {
