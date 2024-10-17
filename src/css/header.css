@@ -86,7 +86,7 @@
 
 }
 /* Desktops */
-/*@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
     .main{
         max-width: 768px;
         margin: 1rem auto;
